@@ -1,0 +1,70 @@
+body{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 150%;
+}
+
+
+/* Header */
+header {
+    background-color: #17365d;
+    padding: 20px;
+}
+
+/* Navigation */
+nav {
+    background-color: #245b87;
+    padding: 10px;
+}
+
+/* Main */
+main {
+    background-color: #f5f7fa;
+    font-size: 18px;
+    padding: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #17365d;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* List items */
+li {
+    display: inline-block;
+    width: 150px;
+    margin: 5px;
+}
+
+/* Main heading */
+h1 {
+    text-align: center;
+    font-family: Georgia, serif;
+    color: white;
+}
+
+/* Paragraph */
+p {
+    line-height: 1.6;
+}
+
+/* Navigation links */
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+}
+
+/* Hover effect */
+nav a:hover {
+    background-color: white;
+    color: #17365d;
+}
+
+/* Keyboard focus */
+nav a:focus-visible {
+    outline: 3px solid #ffcf5a;
+    outline-offset: 3px;
+}
